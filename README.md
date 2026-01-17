@@ -1,12 +1,12 @@
 # Documento Inicial – Sistema De PQRs
 
 📑
-## 1. Introducción
+## Introducción
 Este documento tiene como objetivo definir y validar los requisitos iniciales del Sistema de Gestión de PQRs (Peticiones, Quejas y Reclamos). Servirá como base para comprender las necesidades del cliente y garantizar que la solución propuesta responda de manera adecuada a sus expectativas.
 El proyecto será desarrollado bajo una metodología ágil, lo que permitirá una construcción iterativa del sistema, con validaciones constantes y ajustes continuos según la retroalimentación del cliente.
 
 📲
-## 2. Metodología de Trabajo
+## Metodología de Trabajo
 Para el diseño y desarrollo del sistema de PQRs se utilizará la metodología ágil, enfocada en:
     -	Entregas incrementales de valor.
     -	Comunicación constante con el cliente.
@@ -14,17 +14,17 @@ Para el diseño y desarrollo del sistema de PQRs se utilizará la metodología �
     -	Mejora continua del producto.
 
 💻
-## 3. Recopilación de Requisitos
+## Recopilación de Requisitos
 Se realizó una reunión inicial con el cliente con el fin de identificar sus necesidades, problemáticas actuales y expectativas frente al sistema. A partir de esta reunión se levantaron los siguientes requerimientos.
 
-## 3.1 Problemática Actual
+## Problemática Actual
 El cliente manifiesta que:
     -	Existen casos que se registran y presentan demoras significativas en su resolución.
     -	Algunos casos se resuelven de manera rápida, pero no existe un control claro de los tiempos.
     -	No se cuenta con una correcta asignación de recursos según el tipo de caso.
 
 🛠️
-## 4. Necesidades Identificadas
+## Necesidades Identificadas
 A partir de la información suministrada por el cliente, se identifican las siguientes necesidades:
     -	Control y seguimiento de los tiempos de respuesta y resolución de las PQRs.
     -	Definición de tiempos adecuados según la tipología de cada caso.
@@ -35,7 +35,7 @@ A partir de la información suministrada por el cliente, se identifican las sigu
     	Contar con un área responsable de la revisión y seguimiento de proveedores y transportistas en relación con la atención de las PQRs.
 
 📚
-## 5. Alcance Inicial del Proyecto
+## Alcance Inicial del Proyecto
 El sistema de PQRs deberá permitir:
     -	Registrar, clasificar y gestionar PQRs.
     -	Realizar seguimiento al estado y tiempos de cada caso.
@@ -45,18 +45,3 @@ El sistema de PQRs deberá permitir:
     
 Este documento será refinado y ampliado en iteraciones posteriores conforme avance el proyecto.
 
-## Requisitos funcionales:
-    -	Formularios de registro de usuario.
-    -   Formularios de inicio de sesión.
-    -   Panel principal donde se visualiza las PQRs     registradas.
-    -	Funcionalidad para crear nuevas PQRs.
-    -	Funcionalidad para editar o eliminar PQRs.
-    -	Menú, para personalizar su cuenta.
-## Requisitos no funcionales: 
-    -	Al registrar o iniciar sesión no se puede tardar más de 2.5 segundos.
-    -	La interfaz debe de ser muy intuitiva que sea fácil de usar para el usuario.
-    -	Se debe de garantizar la información del usuario (cifrado, contraseñas protegidas, datos personales).
-    -	Se debe de poder utilizar en cualquier navegador (posibilidad de uso en dispositivos móviles).
-
-## Diagrama caso de uso 
- 
