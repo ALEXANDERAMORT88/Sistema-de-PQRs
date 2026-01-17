@@ -7,7 +7,8 @@ Permite al cliente autenticarse en el sistema y registrar una Petición, Queja o
 ## Precondición: 
     -	El cliente debe tener un usuario registrado en el sistema.
     -	El sistema debe estar disponible.
-Flujo principal:
+
+## Flujo principal:
     -   El cliente ingresa al sistema.
     -   El sistema solicita usuario y contraseña.
     -   El cliente ingresa sus credenciales.
