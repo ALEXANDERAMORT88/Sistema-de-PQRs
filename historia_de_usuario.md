@@ -1,5 +1,7 @@
 # Historias de Usuario – Sistema de PQRs
 
+---
+
 ### 🧑‍💻 HU-01 registro de usuario 
 
 como cliente, quiero registrarme en el sistema de PQR, para poder acceder a la plataforma y registrar mis peticiones, quejas o reclamos. 
@@ -23,6 +25,8 @@ Como cliente, quiero recibir notificaciones cuando cambie el estado de mi PQR, p
 ### 📚 HU-06 Adjuntar archivos a una PQR
 
 Como cliente, quiero adjuntar archivos a mi PQR, para brindar información adicional que ayude a su solución.
+
+---
 
 # Empresa / Sistema
 
