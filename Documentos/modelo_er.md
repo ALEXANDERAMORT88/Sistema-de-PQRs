@@ -1,7 +1,6 @@
 # Modelo Entidad–Relación 
 
-El modelo ER define la estructura de datos necesaria para soportar
-el registro de usuarios y la creación de PQRs.
+El modelo ER define la estructura de datos necesaria para soportar el registro de usuarios y la creación de PQRs.
 
 ## Entidades
 - Usuario: almacena la información de los clientes.
