@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-sistema-de-gestion-de-pqrs",
+  "version": "1.0.0",
+  "description": "Este documento tiene como objetivo definir y validar los requisitos iniciales del Sistema de Gestión de PQRs (Peticiones, Quejas y Reclamos). Servirá como base para comprender las necesidades del cliente y garantizar que la solución propuesta responda de manera adecuada a sus expectativas.\r El proyecto será desarrollado bajo una metodología ágil, lo que permitirá una construcción iterativa del sistema, con validaciones constantes y ajustes continuos según la retroalimentación del cliente.",
+  "main": "pqr_backend/src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon pqr_backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALEXANDERAMORT88/Sistema-de-PQRs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALEXANDERAMORT88/Sistema-de-PQRs/issues"
+  },
+  "homepage": "https://github.com/ALEXANDERAMORT88/Sistema-de-PQRs#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mariadb": "^3.5.2",
+    "morgan": "^1.10.1",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
