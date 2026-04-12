@@ -3,6 +3,10 @@ import app from "./app.js";
 // Extraemos la configuración del module de sequelize
 import { sequelize } from "./dataBase/dataBase.js";
 
+import './models/usuarios.models.js';
+import './models/pqr.models.js';
+import './models/tipoPqr.models.js';
+
 const PORT = 3000;
 
 app.listen(PORT);
