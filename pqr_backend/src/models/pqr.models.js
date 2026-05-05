@@ -28,6 +28,7 @@ export const Pqr = sequelize.define(
     }
 )
 
+// Crear relaciones
 TipoPqr.hasMany(Pqr, {
     foreignKey: 'tipoPqrId',
     sourceKey: 'id'
