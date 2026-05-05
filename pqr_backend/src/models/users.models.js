@@ -39,6 +39,7 @@ export const Usuarios = sequelize.define(
     }
 )
 
+// Creando relaciones
 Usuarios.hasMany(Pqr, {
     foreignKey: 'usuariosId',
     sourceKey: 'id'
@@ -48,4 +49,3 @@ Pqr.belongsTo(Usuarios, {
     foreignKey: 'usuariosId',
     targetKey: 'id'
 })
-
