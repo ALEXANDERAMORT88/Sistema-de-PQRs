@@ -1,4 +1,4 @@
-// En este archivo lo que haremos es hacer las configuraciones necesarias para la aplicación, como va a funcionar nuestra API.
+// En este archivo lo que haremos es hacer las configuraciones y la construción necesarias para la aplicación, como va a funcionar nuestra API.
 import express from 'express';
 import usersRoutes  from './routes/users.routes.js'
 
