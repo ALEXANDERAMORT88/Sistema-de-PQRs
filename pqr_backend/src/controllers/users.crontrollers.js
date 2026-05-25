@@ -83,6 +83,21 @@ export const actualizarUsuario = async (req, res) => {
     await usuarios.save();
     res.json(usuarios);
   } catch (error) {
-    return res.status(500).json({ message: error.message});
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+//Eliminar usuarios
+export const eliminarUsuario = async (req, res) => {
+  try {
+    const { id } = req.params;
+    await Usuarios.destroy({
+      where: {
+        id,
+      },
+    });
+    res.json({ message: "Usuario eliminado correctamente ❌" });
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
   }
 };
