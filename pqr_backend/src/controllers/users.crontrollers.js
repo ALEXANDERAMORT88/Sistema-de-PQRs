@@ -4,7 +4,7 @@ import { Usuarios } from "../models/users.models.js";
 export const getUsuarios = async (req, res) => {
   try {
     const usuarios = await Usuarios.findAll();
-    res.json(usuarios);
+    res.json(usuarios); 
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }

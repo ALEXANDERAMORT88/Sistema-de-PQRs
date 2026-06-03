@@ -11,13 +11,12 @@ export const Pqr = sequelize.define(
             autoIncrement: true,
         },
         numero_radicado: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
+            allowNull: false,
+            unique: true
         },
         descripcion: {
             type: DataTypes.STRING,
-        },
-        fecha_creacion: {
-            type: DataTypes.DATE,
         },
         estado: {
             type: DataTypes.STRING,

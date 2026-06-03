@@ -9,7 +9,7 @@ app.listen(PORT);
 
 async function main() {
   try {
-    await sequelize.sync({ force: false });
+    await sequelize.sync({ force: false }); // Si se deja en true, esto elimina y recrea las tablas nuevamente borrando todos los datos de las tablas, por eso se debe de dejar en false. 
     console.log("Connection has been established successfully.");
 
     console.log(`Servidor conectado al puerto http://localhost:${PORT}`);
