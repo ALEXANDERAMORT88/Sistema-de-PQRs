@@ -16,7 +16,7 @@ export const Pqr = sequelize.define(
             unique: true
         },
         descripcion: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
         },
         estado: {
             type: DataTypes.STRING,
